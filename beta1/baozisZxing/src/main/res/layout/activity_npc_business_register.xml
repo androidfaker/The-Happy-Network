@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".NpcBusinessRegisterActivity">
+
+    <include layout="@layout/head" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="组织机构名称" />
+
+            <EditText
+                android:id="@+id/zuzhimingcheng"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="组织机构地址" />
+
+            <EditText
+                android:id="@+id/zuzhidizhi"
+                style="@style/EditTextNoIMG"
+                android:digits="1234567890X" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="组织机构邮编" />
+
+            <EditText
+                android:id="@+id/zuzhiyoubian"
+                style="@style/EditTextNoIMG"
+                android:digits="1234567890X" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="组织机构代码" />
+
+            <EditText
+                android:id="@+id/zuzhidaima"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机构性质" />
+
+            <RadioGroup
+                android:id="@+id/jigouxingzhi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/guojiajiguan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="国家机关" />
+
+                <RadioButton
+                    android:id="@+id/biaozhunhuajigou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标准化机构" />
+
+                <RadioButton
+                    android:id="@+id/shehuituanti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="社会团体" />
+
+                <RadioButton
+                    android:id="@+id/gongsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="公司" />
+
+                <RadioButton
+                    android:id="@+id/geren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个人" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="经营范围" />
+
+            <EditText
+                android:id="@+id/jingyingfanwei"
+                style="@style/EditTextNoIMG" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="营业执照" />
+
+                <TextView
+                    android:id="@+id/tianjiayingyezhizhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/huoquyanzhengma"
+                    android:text="添加照片" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/yingyezhizhao"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/logohui" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="法人姓名" />
+
+            <EditText
+                android:id="@+id/farenxingming"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="法人身份证号" />
+
+            <EditText
+                android:id="@+id/farenshenfenzhenghao"
+                style="@style/EditTextNoIMG" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手持身份证照片" />
+
+                <TextView
+                    android:id="@+id/tianjiashenfenzheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/huoquyanzhengma"
+                    android:text="添加照片" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/farenshenfenzhengzhao"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/logohui" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人姓名" />
+
+            <EditText
+                android:id="@+id/xingming"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人手机" />
+
+            <EditText
+                android:id="@+id/shoujihao"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人职务" />
+
+            <EditText
+                android:id="@+id/zhiwu"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人邮箱" />
+
+            <EditText
+                android:id="@+id/youxiang"
+                style="@style/EditTextNoIMG" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人传真" />
+
+            <EditText
+                android:id="@+id/chuanzhen"
+                style="@style/EditTextNoIMG" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/denglu_select"
+        android:gravity="center"
+        android:text="@string/lijizhuce"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

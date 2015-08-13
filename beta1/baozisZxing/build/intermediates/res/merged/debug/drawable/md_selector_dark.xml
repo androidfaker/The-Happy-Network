@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_activated="true" android:state_pressed="true" android:drawable="@color/ripple_material_dark" />
+    <item android:state_activated="true" android:drawable="@color/md_selected_dark" />
+    <item android:state_selected="true" android:drawable="@color/md_selected_dark" />
+    <item android:state_pressed="true" android:drawable="@color/md_selected_dark" />
+    <item android:drawable="@android:color/transparent" />
+
+</selector><!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/drawable/md_selector_dark.xml --><!-- From: file:/Users/chenbeiyi/git/beta1/baozisZxing/build/intermediates/exploded-aar/beta1/library/unspecified/res/drawable/md_selector_dark.xml -->

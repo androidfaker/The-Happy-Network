@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="md_divider_dark">#1effffff</color>
+    <color name="md_divider_light">#1e000000</color>
+    <color name="md_fixed_list_shadow_end">#1e000000</color>
+    <color name="md_fixed_list_shadow_start">#00000000</color>
+    <color name="md_inset_foreground">#42000000</color>
+    <color name="md_ripple_dark">#4dffffff</color>
+    <color name="md_ripple_light">#42000000</color>
+    <color name="md_scrim_end">#8a000000</color>
+    <color name="md_scrim_start">#00000000</color>
+    <color name="md_selected_dark">#1effffff</color>
+    <color name="md_selected_light">#1e000000</color>
+    <declare-styleable name="DrawerFrameLayout"><attr format="dimension" name="drawerMaxWidth"/></declare-styleable>
+    <declare-styleable name="LinearListView"><attr name="android:entries"/><attr format="dimension" name="dividerThickness"/></declare-styleable>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="md_app_bar_elevation">8dp</dimen>
+    <dimen name="md_avatar_size">40dp</dimen>
+    <dimen name="md_baseline">16dp</dimen>
+    <dimen name="md_baseline_content">72dp</dimen>
+    <dimen name="md_big_avatar_size">64dp</dimen>
+    <dimen name="md_divider_height">1dp</dimen>
+    <dimen name="md_divider_margin">8dp</dimen>
+    <dimen name="md_drawer_list_margin_vertical">8dp</dimen>
+    <dimen name="md_drawer_max_width">400dp</dimen>
+    <dimen name="md_fixed_list_shadow_height">4dp</dimen>
+    <dimen name="md_icon_size">24dp</dimen>
+    <dimen name="md_list_item_height">48dp</dimen>
+    <dimen name="md_list_item_height_two_line">72dp</dimen>
+    <dimen name="md_list_item_margin">16dp</dimen>
+    <dimen name="md_list_item_text_secondary_margin">0dp</dimen>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="mdAvatarProfile" type="id"/>
+    <item name="mdAvatarProfileCount" type="id"/>
+    <item name="mdAvatarProfileSecondary" type="id"/>
+    <item name="mdDivider" type="id"/>
+    <item name="mdDrawer" type="id"/>
+    <item name="mdDrawerLayout" type="id"/>
+    <item name="mdFixedDivider" type="id"/>
+    <item name="mdFixedListContainer" type="id"/>
+    <item name="mdFixedShadow" type="id"/>
+    <item name="mdFrame" type="id"/>
+    <item name="mdHeaderRoot" type="id"/>
+    <item name="mdHeaderTitle" type="id"/>
+    <item name="mdHeaderTitleRoot" type="id"/>
+    <item name="mdImage" type="id"/>
+    <item name="mdLayout" type="id"/>
+    <item name="mdLayoutProfile" type="id"/>
+    <item name="mdLayoutProfileContent" type="id"/>
+    <item name="mdLinearListViewFixed" type="id"/>
+    <item name="mdList" type="id"/>
+    <item name="mdListContainer" type="id"/>
+    <item name="mdOpenProfileListContainer" type="id"/>
+    <item name="mdOpenProfileListIcon" type="id"/>
+    <item name="mdProfileBackground" type="id"/>
+    <item name="mdProfileBackgroundOverlay" type="id"/>
+    <item name="mdProfileDescription" type="id"/>
+    <item name="mdProfileList" type="id"/>
+    <item name="mdProfileName" type="id"/>
+    <item name="mdProfileTextContainer" type="id"/>
+    <item name="mdRoot" type="id"/>
+    <item name="mdScrollView" type="id"/>
+    <item name="mdTextPrimary" type="id"/>
+    <item name="mdTextRoot" type="id"/>
+    <item name="mdTextSecondary" type="id"/>
+    <item name="mdToolbar" type="id"/>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="md_profile_list_open_anim_time">200</integer>
+    <integer name="md_profile_switching_anim_time">500</integer>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="md_content_description_drawer_close">Menu closed</string>
+    <string name="md_content_description_drawer_open">Menu open</string>
+    <string name="md_content_description_open_profile_list">Secondary Avatar</string>
+    <string name="md_content_description_profile_avatar">Avatar</string>
+    <string name="md_content_description_profile_avatar_secondary">Secondary Avatar</string>
+    <string name="md_content_description_profile_background">Background</string>
+    <string name="md_content_description_profile_background_overlay">Background Overlay</string>
+    <!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.MaterialDrawer.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+    <style name="Theme.MaterialDrawer.Dark.LightToolbar" parent="Theme.MaterialDrawer.Dark">
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+    <style name="Theme.MaterialDrawer.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+    <style name="Theme.MaterialDrawer.Light.DarkToolbar" parent="Theme.MaterialDrawer.Light">
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+</resources>

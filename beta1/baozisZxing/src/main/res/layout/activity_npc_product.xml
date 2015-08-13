@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shop.xtyk.myapplication.NpcProductRegisterActivity">
+
+    <include layout="@layout/head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生产厂家" />
+
+        <EditText
+            android:id="@+id/shengchanchangjia"
+            style="@style/EditTextNoIMG" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生产许可证号" />
+
+        <EditText
+            android:id="@+id/shengchanxukezhenghao"
+            style="@style/EditTextNoIMG" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="产品名称" />
+
+        <EditText
+            android:id="@+id/chanpinmingcheng"
+            style="@style/EditTextNoIMG" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保质期" />
+
+        <EditText
+            android:id="@+id/baozhiqi"
+            style="@style/EditTextNoIMG" />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/addon" />
+
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/denglu_select"
+        android:gravity="center"
+        android:text="@string/lijizhuce"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>
+
+

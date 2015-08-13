@@ -1,0 +1,2 @@
+include ':library', ':volley', ':multi-image-selector'
+include ':baozisZxing'

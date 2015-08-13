@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tou"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:onClick="fanhui"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:src="@drawable/fanhui" />
+</RelativeLayout>
+<!-- From: file:/Users/chenbeiyi/git/beta1/baozisZxing/src/main/res/layout/head.xml -->

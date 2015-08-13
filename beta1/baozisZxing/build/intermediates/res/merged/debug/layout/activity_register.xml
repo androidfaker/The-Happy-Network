@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <include layout="@layout/head" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <EditText
+                android:id="@+id/zhanghao"
+                style="@style/EditText"
+                android:drawableLeft="@drawable/zhanghao"
+                android:hint="@string/yonghuming" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <EditText
+                android:id="@+id/shoujihao"
+                style="@style/EditText"
+                android:drawableLeft="@drawable/shouji"
+                android:hint="@string/shoujihao"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/shoujihaotishi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@color/gray2" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/yanzhengma"
+                    style="@style/EditText"
+                    android:drawableLeft="@drawable/yanzhengma"
+                    android:hint="@string/yanzhengma"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/huoquyanzhengma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/huoquyanzhengma"
+                    android:gravity="center"
+                    android:text="@string/huoquyanzhengma"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/mima"
+                    style="@style/EditText"
+                    android:drawableLeft="@drawable/mima"
+                    android:hint="@string/zimuheshuzi"
+                    android:inputType="textPassword" />
+
+                <ImageView
+                    android:id="@+id/mimaxianshi"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/mima_select" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mimatishi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@color/gray2" />
+
+            <EditText
+                android:id="@+id/querenmima"
+                style="@style/EditText"
+                android:drawableLeft="@drawable/mima"
+                android:hint="@string/querenmima"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/querenmimatishi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@color/gray2" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/lijizhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/denglu_select"
+        android:gravity="center"
+        android:text="@string/lijizhuce"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
+<!-- From: file:/Users/chenbeiyi/git/beta1/baozisZxing/src/main/res/layout/activity_register.xml -->

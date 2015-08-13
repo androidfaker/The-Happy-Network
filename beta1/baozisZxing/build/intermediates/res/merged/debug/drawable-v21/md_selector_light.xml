@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_material_light">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@android:color/white" />
+    <item>
+        <selector>
+            <item
+                android:state_activated="true"
+                android:drawable="@color/md_selected_light" />
+            <item
+                android:state_selected="true"
+                android:drawable="@color/md_selected_light" />
+        </selector>
+    </item>
+
+</ripple><!-- From: file:/Users/chenbeiyi/git/beta1/library/src/main/res/drawable-v21/md_selector_light.xml --><!-- From: file:/Users/chenbeiyi/git/beta1/baozisZxing/build/intermediates/exploded-aar/beta1/library/unspecified/res/drawable-v21/md_selector_light.xml -->

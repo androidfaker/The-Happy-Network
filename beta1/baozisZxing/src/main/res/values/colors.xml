@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#795548</color>
+    <color name="color_primary_dark">#5D4037</color>
+    <color name="color_accent">#FF5722</color>
+    <color name="white">#ffffff</color>
+    <!--<color name="black">#000000</color>-->
+    <color name="orange">#f96500</color>
+    <color name="gray0">#ECECEC</color>
+    <color name="gray1">#DBDBDB</color>
+    <color name="gray2">#969696</color>
+    <color name="gray3">#505050</color>
+    <color name="gray4">#323232</color>
+    <!-- npc产品码注册-->
+    <color name="gray5">#EAEAEA</color>
+</resources>
